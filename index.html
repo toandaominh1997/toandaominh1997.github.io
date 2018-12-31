@@ -18,22 +18,6 @@
     <img class="mySlides" src="img_band_chicago.jpg" style="width: 100%">
 
 </section>
-<script>
-var myIndex = 0;
-carousel()
-function carousel(){
-    var x = document.getElementsByClassName("mySlides");
-    for(var i=0;i<x.length; i++){
-        x[i].style.display= "none";
-    }
-    myIndex++;
-    if(myIndex>x.length){
-        myIndex=1;
-    }
-    x[myIndex-1].style.display="block";
-    setTimeout(carousel, 3000);
-}
-</script>
 <section class="w3-container w3-center" style="max-width: 600px">
     <h2 class="w3-wide">THE BAND</h2>
     <p class="w3-capacity"><i>We love music</i></p>
