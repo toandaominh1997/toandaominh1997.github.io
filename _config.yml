@@ -1,6 +1,6 @@
 lsi: false
 safe: true
-theme: "mmistakes/minimal-mistakes@4.24.0"
+theme: minima
 source: /
 incremental: false
 highlighter: rouge
